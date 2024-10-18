@@ -40,18 +40,18 @@ copy the above mentioned requirements into your terminal and press enter
 
 for windows:
 
-set GOOGLE_APPLICATION_CREDENTIALS="path\to\your\google-cloud-key.json"
+	<sub> set GOOGLE_APPLICATION_CREDENTIALS="path\to\your\google-cloud-key.json" </sub>
 
 ## OpenAI API Key
 
 Replace the existing key with your own OpenAI API Key in the code (Recommended):
 
-openai.api_key = "your_openai_api_key"
+	<sub> openai.api_key = "your_openai_api_key" </sub>
 
 ## Running the Project
 1. Start the Streamlit app: Run the following command to launch the Streamlit interface:
 
-streamlit run app.py
+<sub> streamlit run app.py 	</sub>
 
 2. Upload a Video: In the web interface, upload a .mp4 video file. The system will extract the audio, transcribe it, correct the transcription, and then replace the original audio with an AI-generated voice.
 3. View the Output: After processing, the app will display the final video with the new audio in the browser.
